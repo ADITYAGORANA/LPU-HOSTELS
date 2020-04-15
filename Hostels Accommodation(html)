@@ -1,0 +1,60 @@
+<!DOCTYPE HTMl>
+<html>
+<head>
+	<title>LPU Hostel Booking</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+
+<body background="lpu.jpg" >
+<div class="Heading">
+	<center><h1>Hostel Accommodation System</h1></center>
+</div>	
+	<div class="nav">
+		<div class="Logo"><a href="Home.html">LOGO/HOME</a></div>
+		<div class="Login"><a href="Login Register.html">LOGIN/REGISTER</a></div>
+	</div>
+<!----Body of the website---->
+<center><div>
+	<center><ul type="none">
+		<li id="Apply_list"><b><a href="#">Apply</a></b>
+			<ul type="none" id="Apply">
+				<li><a href="#">New</a></li>
+				<li><a href="#">Existing</a></li>
+				<li><a href="#">Renew</a></li>
+				<li><a href="#">Check Availability</a></li>
+			</ul>
+		</li>
+		<li id="Boys_list"><b><a href="#">Boys Hostel</a></b>
+			<ul type="none" id="Boys">
+				<li><a href="#">Rooms</a></li>
+				<li><a href="#">AC</a></li>
+				<li><a href="#">NON-AC</a></li>
+			</ul>
+		</li>
+		<li id="Girls_list"><b><a href="#">Girls Hostel</a></b>
+			<ul type="none" id="Girls">
+				<li><a href="#">Rooms</a></li>
+				<li><a href="#">AC</a></li>
+				<li><a href="#">NON-AC</a></li>
+			</ul>
+		</li>
+		<li class="Account"><b><a href="#">My Account</a></b></li>
+	</ul></center>
+</div></center>
+<script type="text/javascript" src="main.js"></script>
+<!-- Registration-->
+	<div class="regd">
+		<p><B>Registraion:</B></p>
+		<input placeholder="Roll no."/>
+		<input placeholder="Branch"/>
+		<input placeholder="Year"/>
+		<input placeholder="Payement"/>
+		<p><B>Status:</B></p>
+		<input placeholder="Request ID status">
+	</div>
+	<div class="about">
+	<a href="about.html">About</a>
+	</div>
+</body>
+</html>
