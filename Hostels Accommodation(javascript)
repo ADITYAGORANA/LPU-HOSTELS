@@ -1,0 +1,13 @@
+console.log("This is working");
+document.getElementById("Apply_list").addEventListener("click", openApply);
+function openApply(){
+	document.getElementById("Apply").classList.toggle("active0");
+}
+document.getElementById("Boys_list").addEventListener("click", openBoys);
+function openBoys(){
+	document.getElementById("Boys").classList.toggle("active1");
+}
+document.getElementById("Girls_list").addEventListener("click", openGirls);
+function openGirls(){
+	document.getElementById("Girls").classList.toggle("active2");
+}
